@@ -9,13 +9,12 @@
 /* Begin PBXBuildFile section */
 		3CE77D9F23825A9700CD6651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE77D9E23825A9700CD6651 /* AppDelegate.swift */; };
 		3CE77DA123825A9700CD6651 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE77DA023825A9700CD6651 /* SceneDelegate.swift */; };
-		3CE77DA323825A9700CD6651 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE77DA223825A9700CD6651 /* ContentView.swift */; };
 		3CE77DA523825A9A00CD6651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE77DA423825A9A00CD6651 /* Assets.xcassets */; };
 		3CE77DA823825A9A00CD6651 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE77DA723825A9A00CD6651 /* Preview Assets.xcassets */; };
 		3CE77DAB23825A9A00CD6651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE77DA923825A9A00CD6651 /* LaunchScreen.storyboard */; };
 		3CE77DB623825A9A00CD6651 /* StudySpacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE77DB523825A9A00CD6651 /* StudySpacesTests.swift */; };
 		3CE77DC123825A9A00CD6651 /* StudySpacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE77DC023825A9A00CD6651 /* StudySpacesUITests.swift */; };
-		3CEB9E5923849A5000CA6C0A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB9E5823849A5000CA6C0A /* LoginView.swift */; };
+		3CF3FC02238508340011286D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3FC01238508340011286D /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +38,6 @@
 		3CE77D9B23825A9700CD6651 /* StudySpaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySpaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE77D9E23825A9700CD6651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CE77DA023825A9700CD6651 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3CE77DA223825A9700CD6651 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3CE77DA423825A9A00CD6651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CE77DA723825A9A00CD6651 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3CE77DAA23825A9A00CD6651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,7 +48,7 @@
 		3CE77DBC23825A9A00CD6651 /* StudySpacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudySpacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE77DC023825A9A00CD6651 /* StudySpacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySpacesUITests.swift; sourceTree = "<group>"; };
 		3CE77DC223825A9A00CD6651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CEB9E5823849A5000CA6C0A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3CF3FC01238508340011286D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +101,7 @@
 			children = (
 				3CE77D9E23825A9700CD6651 /* AppDelegate.swift */,
 				3CE77DA023825A9700CD6651 /* SceneDelegate.swift */,
-				3CE77DA223825A9700CD6651 /* ContentView.swift */,
-				3CEB9E5823849A5000CA6C0A /* LoginView.swift */,
+				3CF3FC01238508340011286D /* Home.swift */,
 				3CE77DA423825A9A00CD6651 /* Assets.xcassets */,
 				3CE77DA923825A9A00CD6651 /* LaunchScreen.storyboard */,
 				3CE77DAC23825A9A00CD6651 /* Info.plist */,
@@ -271,9 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CE77D9F23825A9700CD6651 /* AppDelegate.swift in Sources */,
-				3CEB9E5923849A5000CA6C0A /* LoginView.swift in Sources */,
 				3CE77DA123825A9700CD6651 /* SceneDelegate.swift in Sources */,
-				3CE77DA323825A9700CD6651 /* ContentView.swift in Sources */,
+				3CF3FC02238508340011286D /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
