@@ -15,7 +15,7 @@ struct ContentView: View {
                 Text("StudySpaces")
                     .font(.title)
                 Text("at UC Berkeley")
-                    .font(.subheadline)
+                    .font(.title)
             }
             .foregroundColor(.black)
             .offset(y:-180)
