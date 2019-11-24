@@ -7,9 +7,10 @@
 //
 
 import SwiftUI
-import Foundation
+
 struct PlaceRow: View {
-    var place: Place
+   var place: Place
+    
     var body: some View {
         HStack{
             place.image
@@ -21,8 +22,8 @@ struct PlaceRow: View {
     }
 }
 
-struct PlaceRow_Previews: PreviewProvider{
-    static var previews: some View{
+struct PlaceRow_Previews: PreviewProvider {
+    static var previews: some View {
         PlaceRow(place: placeData[0])
     }
 }

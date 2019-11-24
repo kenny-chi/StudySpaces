@@ -9,7 +9,7 @@
 import SwiftUI
 import CoreLocation
 
-struct Place: Hashable, Codable, Identifiable {
+struct Place: Hashable, Codable, Identifiable{
     var id: Int
     var name: String
     fileprivate var imageName: String
@@ -25,12 +25,14 @@ struct Place: Hashable, Codable, Identifiable {
         )
         
     }
-    enum Category: String, CaseIterable, Codable, Hashable{
+    enum Category: String, CaseIterable, Codable, Hashable {
         case library = "Library"
         case studyroom = "Study Room"
         case cafe = "Cafe"
     }
-    var image: Image{
+}
+extension Place {
+    var image: Image {
         ImageStore.shared.image(name: imageName)
     }
 }
@@ -38,4 +40,3 @@ struct Coordinates: Hashable, Codable {
     var latitude: Double
     var longitude: Double
 }
-
