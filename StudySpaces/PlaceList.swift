@@ -10,13 +10,36 @@ import SwiftUI
 
 struct PlaceList: View {
     var body: some View {
-        NavigationView {
-            List(placeData) { place in
-                PlaceRow(place: place)
+            NavigationView {
+                    List(placeData) { place in
+                        NavigationLink(destination: PlaceDetail(place: place)){
+                            PlaceRow(place: place)
+                            Spacer()
+                            Group {
+                                if place.capacity > 0 && place.capacity < 10 {
+                                    Image(systemName: "circle.fill")
+                                        .foregroundColor(Color.yellow)
+                                    
+                                }
+                                else if place.capacity > 0{
+                                    Image(systemName: "circle.fill")
+                                    .foregroundColor(Color.green)
+                                }
+                                else {
+                                    Image(systemName: "circle.fill")
+                                    .foregroundColor(Color.red)
+                                }
+                            }
+                        }
+                        
+                    }
+                 .navigationBarTitle("Places")
+                    .offset(x: 2)
+                
+                    
             }
-            .navigationBarTitle("Places")
+           
         }
-    }
 }
 struct PlaceList_Previews: PreviewProvider {
     static var previews: some View {

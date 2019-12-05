@@ -4,14 +4,14 @@ import SwiftUI
 struct CategoryHome: View {
     var body: some View {
         VStack {
-            Image("RW7991")
+            /*Image("RW7991")
             .clipShape(Circle())
             .overlay(
                 Circle().stroke(Color.white, lineWidth: 4))
             .shadow(radius: 10)
             //.offset()
-            //.padding(.bottom)
-            Group {
+            //.padding(.bottom)*/
+            /*Group {
                 Text("StudySpaces")
                     .font(.title)
                     //.foregroundColor(Color(red: 0.2, green: 0.3, blue: 0.7, opacity: 1.0))
@@ -21,9 +21,9 @@ struct CategoryHome: View {
                 Text("at UC Berkeley")
                     .font(.subheadline)
             }
-            .foregroundColor(.white)
-            .offset(y:-180)
+            .foregroundColor(.white)*/
             PlaceList()
+            
         }
         
     }

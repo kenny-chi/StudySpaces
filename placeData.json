@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Main Stacks",
+        "category": "Library",
+        "id": 1001,
+        "isFavorite": true,
+        "capacity": 100,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "imageName": "mainstacks"
+    },
+    {
+        "name": "Unit 2 Study Lounge",
+        "category": "Study Room",
+        "id": 1002,
+        "isFavorite": false,
+        "capacity": 0,
+        "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        },
+        "imageName": "u2"
+    },
+    {
+        "name": "Free Speech Movement",
+        "category": "Cafe",
+        "id": 1003,
+        "isFavorite": true,
+        "capacity": 6,
+        "coordinates": {
+            "longitude": -135.334571,
+            "latitude": 59.560551
+        },
+        "imageName": "fsm"
+    },
+    {
+        "name": "Doe Library",
+        "category": "Library",
+        "id": 1004,
+        "isFavorite": true,
+        "capacity": 140,
+        "coordinates": {
+            "longitude": -135.334571,
+            "latitude": 59.560551
+        },
+        "imageName": "doe"
+    },
+    {
+        "name": "East Asian Library",
+        "category": "Library",
+        "id": 1005,
+        "isFavorite": true,
+        "capacity": 0,
+        "coordinates": {
+            "longitude": -135.334571,
+            "latitude": 59.560551
+        },
+        "imageName": "eastasian"
+    }
+]
+

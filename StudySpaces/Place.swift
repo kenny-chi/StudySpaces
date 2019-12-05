@@ -25,6 +25,7 @@ struct Place: Hashable, Codable, Identifiable{
         )
         
     }
+    
     enum Category: String, CaseIterable, Codable, Hashable {
         case library = "Library"
         case studyroom = "Study Room"
